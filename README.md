@@ -13,8 +13,17 @@ Created agents
 
 2. **Location:** sample-agents/agent\_02 
 
-   **Model:** gemini-2.5-flash
+   **Model:** gemini-3-flash-preview
+
+   **Backend:** Google AI
+3. **Location:** sample-agents/agent\_03 
+
+   **Model:** gemini-3.1-flash-lite-preview
 
    **Backend:** Google AI
 
-* sdsdas
+Each agent must have .env file in its root with following content:
+```
+GOOGLE_GENAI_USE_VERTEXAI=0
+GOOGLE_API_KEY=YOUR_API_KEY
+```
