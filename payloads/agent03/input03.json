@@ -1,0 +1,7 @@
+{
+  "state": {"key": "5c69cdeb-b043-413e-b315-815769559671"},
+  "queries": [
+    "Classify the following numbers as Abra, Kadabra or Abra Kadabra:\n\n3, 5, 8, 2, 7, 12, 13\n\nExamples:\n6 // not divisible by 5, not divisible by 7 // None\n15 // divisible by 5, not divisible by 7 // Abra\n12 // not divisible by 5, not divisible by 7 // None\n21 // not divisible by 5, divisible by 7 // Kadabra\n70 // divisible by 5, divisible by 7 // Abra Kadabra"
+  ]
+}
+
